@@ -1,0 +1,16 @@
+{
+  "version": 2,
+  "dgSpecHash": "9TN9qxCvUBg37MOqlqlGsb8TtLr2CPRr7NNI773+/cEeaL2+rUozP0utVmtwS5m/+xpCQ2KOz0tUv2xB8AS77A==",
+  "success": true,
+  "projectFilePath": "D:\\Projects\\ProductSaleAndRentalAPI\\Presentation\\ProductSaleAndRental.API\\ProductSaleAndRental.API.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\zefir\\.nuget\\packages\\microsoft.aspnetcore.openapi\\7.0.11\\microsoft.aspnetcore.openapi.7.0.11.nupkg.sha512",
+    "C:\\Users\\zefir\\.nuget\\packages\\microsoft.extensions.apidescription.server\\6.0.5\\microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",
+    "C:\\Users\\zefir\\.nuget\\packages\\microsoft.openapi\\1.4.3\\microsoft.openapi.1.4.3.nupkg.sha512",
+    "C:\\Users\\zefir\\.nuget\\packages\\swashbuckle.aspnetcore\\6.5.0\\swashbuckle.aspnetcore.6.5.0.nupkg.sha512",
+    "C:\\Users\\zefir\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.5.0\\swashbuckle.aspnetcore.swagger.6.5.0.nupkg.sha512",
+    "C:\\Users\\zefir\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.5.0\\swashbuckle.aspnetcore.swaggergen.6.5.0.nupkg.sha512",
+    "C:\\Users\\zefir\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\6.5.0\\swashbuckle.aspnetcore.swaggerui.6.5.0.nupkg.sha512"
+  ],
+  "logs": []
+}
