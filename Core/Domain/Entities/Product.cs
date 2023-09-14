@@ -1,6 +1,4 @@
-﻿using Domain.Entities;
-
-namespace Markerplace.Domain.Entities;
+﻿namespace Domain.Entities;
 
 public class Product :BaseEntity
 {

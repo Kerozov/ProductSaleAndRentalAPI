@@ -1,4 +1,4 @@
-﻿namespace Markerplace.Domain.Enums;
+﻿namespace Domain.Enums;
 
 public enum OrderStatus
 {

@@ -1,8 +1,6 @@
-﻿using System;
-using Domain.Entities;
-using Markerplace.Domain.Enums;
+﻿using Domain.Enums;
 
-namespace Markerplace.Domain.Entities;
+namespace Domain.Entities;
 
 public class Order : BaseEntity
 {

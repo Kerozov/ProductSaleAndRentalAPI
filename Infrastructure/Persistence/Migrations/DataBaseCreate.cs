@@ -1,9 +1,8 @@
-﻿using System.Data.SqlClient;
-using Dapper;
+﻿using Dapper;
 using Microsoft.Data.SqlClient;
 using Microsoft.Extensions.Configuration;
 
-namespace Marketplace.Persistence.Migrations;
+namespace Persistence.Migrations;
 
  public static class DatabaseCreate
     {

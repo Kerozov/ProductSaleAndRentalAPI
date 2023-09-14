@@ -1,5 +1,6 @@
 using Marketplace.Persistence.Migrations;
 using Persistence.Configuration;
+using Persistence.Migrations;
 
 var builder = WebApplication.CreateBuilder(args);
 

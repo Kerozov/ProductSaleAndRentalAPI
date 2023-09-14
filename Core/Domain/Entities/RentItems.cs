@@ -1,8 +1,4 @@
-﻿using System;
-using System.Runtime.InteropServices.JavaScript;
-using Domain.Entities;
-
-namespace Markerplace.Domain.Entities;
+﻿namespace Domain.Entities;
 
 public class RentItems :BaseEntity
 {
