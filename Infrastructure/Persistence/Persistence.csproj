@@ -15,4 +15,8 @@
       <PackageReference Include="Microsoft.Extensions.Configuration.Abstractions" Version="8.0.0-rc.1.23419.4" />
     </ItemGroup>
 
+    <ItemGroup>
+      <ProjectReference Include="..\..\Core\Application\Application.csproj" />
+    </ItemGroup>
+
 </Project>

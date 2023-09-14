@@ -1,10 +1,10 @@
-﻿using Markerplace.Domain.Entities;
-using Marketplace.Application.Models.GenericRepository;
-using Marketplace.Application.Models.ImageModels.Interface;
+﻿using Application.Models.GenericRepository;
+using Application.Models.ImageModels.Dtos;
+using Application.Models.ImageModels.Interface;
 using Dapper;
-using Marketplace.Application.Models.ImageModels.Dtos;
+using Domain.Entities;
 
-namespace Marketplace.Persistence.Repositories;
+namespace Persistence.Repositories;
 
 public class ImageRepository :GenericRepository<Image>, IImageRepository
 {

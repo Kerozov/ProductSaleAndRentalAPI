@@ -1,11 +1,10 @@
-﻿using Dapper;
-using Markerplace.Domain.Entities;
-using Marketplace.Application.Models.GenericRepository;
-using Marketplace.Application.Models.RentItemsModels.Dtos;
-using Marketplace.Application.Models.RentItemsModels.Interfaces;
-using Marketplace.Persistence.Migrations;
+﻿using Application.Models.GenericRepository;
+using Application.Models.RentItemsModels.Dtos;
+using Application.Models.RentItemsModels.Interfaces;
+using Dapper;
+using Domain.Entities;
 
-namespace Marketplace.Persistence.Repositories;
+namespace Persistence.Repositories;
 
 public class RentItemRepository : GenericRepository<RentItems>, IRentItemRepository
 {

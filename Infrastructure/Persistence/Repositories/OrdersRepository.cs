@@ -1,12 +1,12 @@
 ﻿using System.Data.SqlClient;
+using Application.Models.GenericRepository;
+using Application.Models.OrderModels.Dtos;
+using Application.Models.OrderModels.Interfaces;
 using Dapper;
-using Markerplace.Domain.Entities;
-using Marketplace.Application.Models.GenericRepository;
-using Marketplace.Application.Models.OrderModels.Dtos;
-using Marketplace.Application.Models.OrderModels.Interfaces;
+using Domain.Entities;
 using Microsoft.Extensions.Configuration;
 
-namespace Marketplace.Persistence.Repositories;
+namespace Persistence.Repositories;
 
 public class OrdersRepository : GenericRepository<Order>, IOrdersRepository
 {

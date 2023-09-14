@@ -1,0 +1,11 @@
+D:\Projects\ProductSaleAndRentalAPI\Core\Domain\bin\Debug\net7.0\Domain.deps.json
+D:\Projects\ProductSaleAndRentalAPI\Core\Domain\bin\Debug\net7.0\Domain.dll
+D:\Projects\ProductSaleAndRentalAPI\Core\Domain\bin\Debug\net7.0\Domain.pdb
+D:\Projects\ProductSaleAndRentalAPI\Core\Domain\obj\Debug\net7.0\Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\Projects\ProductSaleAndRentalAPI\Core\Domain\obj\Debug\net7.0\Domain.AssemblyInfoInputs.cache
+D:\Projects\ProductSaleAndRentalAPI\Core\Domain\obj\Debug\net7.0\Domain.AssemblyInfo.cs
+D:\Projects\ProductSaleAndRentalAPI\Core\Domain\obj\Debug\net7.0\Domain.csproj.CoreCompileInputs.cache
+D:\Projects\ProductSaleAndRentalAPI\Core\Domain\obj\Debug\net7.0\Domain.dll
+D:\Projects\ProductSaleAndRentalAPI\Core\Domain\obj\Debug\net7.0\refint\Domain.dll
+D:\Projects\ProductSaleAndRentalAPI\Core\Domain\obj\Debug\net7.0\Domain.pdb
+D:\Projects\ProductSaleAndRentalAPI\Core\Domain\obj\Debug\net7.0\ref\Domain.dll

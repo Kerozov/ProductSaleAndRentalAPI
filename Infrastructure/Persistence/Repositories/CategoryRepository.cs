@@ -1,9 +1,8 @@
-﻿using Markerplace.Domain.Entities;
-using Marketplace.Application.Models.CategorieModels.Dtos;
-using Marketplace.Application.Models.CategorieModels.Interfaces;
-using Marketplace.Application.Models.GenericRepository;
+﻿using Application.Models.CategorieModels.Interfaces;
+using Application.Models.GenericRepository;
+using Domain.Entities;
 
-namespace Marketplace.Persistence.Repositories;
+namespace Persistence.Repositories;
 
 public class CategoryRepository :GenericRepository<Category>, ICategorieRepository
 {

@@ -1,12 +1,13 @@
 ﻿using System.Data.SqlClient;
+using Application.Models.GenericRepository;
+using Application.Models.ProductModels.Dtos;
+using Application.Models.ProductModels.Interface;
 using Dapper;
-using Markerplace.Domain.Entities;
-using Marketplace.Application.Models.GenericRepository;
-using Marketplace.Application.Models.ProductModels.Dtos;
-using Marketplace.Application.Models.ProductModels.Interface;
+using Domain.Entities;
+using Domain.Entities;
 using Microsoft.Extensions.Configuration;
 
-namespace Marketplace.Persistence.Repositories;
+namespace Persistence.Repositories;
 
 public class ProductRepository : GenericRepository<Product>, IProductRepository
 {

@@ -1,4 +1,7 @@
+using Application.Helpers.Configurations;
+using Application.Helpers.Middlewares;
 using Marketplace.Persistence.Migrations;
+using NLog.Web;
 using Persistence.Configuration;
 using Persistence.Migrations;
 
@@ -12,8 +15,11 @@ IConfigurationRoot config = new ConfigurationBuilder()
 builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
+builder.Services.AddConfigurationApplicationLayer();
+builder.Services.AddConfigurationRepositories();
 builder.Services.AddSwaggerGen();
 builder.Services.AddConfigurationMigration();
+builder.Host.ConfigureLogging(logging => { logging.ClearProviders(); }).UseNLog();
 
 var app = builder.Build();
 
@@ -21,11 +27,13 @@ var app = builder.Build();
 DatabaseCreate.Create(app.Services.GetRequiredService<IConfiguration>());
 app.UseSwagger();
 app.UseSwaggerUI();
-app.MigrateUpDatabase();
+//app.MigrateUpDatabase();
 
 app.UseHttpsRedirection();
 
 app.UseAuthorization();
+
+app.UseMiddleware<ExceptionHandlingMIddleware>();
 
 app.MapControllers();
 

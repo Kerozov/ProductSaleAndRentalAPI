@@ -1,9 +1,9 @@
 ﻿using System.Data;
+using Application.Models.GenericRepository;
 using Dapper;
-using Markerplace.Domain.Entities;
-using Marketplace.Application.Models.GenericRepository;
+using Domain.Entities;
 
-namespace Marketplace.Persistence.Repositories
+namespace Persistence.Repositories
 {
     public class GenericRepository<T> : IGenericRepository<T> where T : BaseEntity
     {

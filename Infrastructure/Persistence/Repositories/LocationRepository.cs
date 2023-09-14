@@ -1,8 +1,8 @@
-﻿using Markerplace.Domain.Entities;
-using Marketplace.Application.Models.GenericRepository;
-using Marketplace.Application.Models.LocationModels.Interfaces;
+﻿using Application.Models.GenericRepository;
+using Application.Models.LocationModels.Interfaces;
+using Domain.Entities;
 
-namespace Marketplace.Persistence.Repositories;
+namespace Persistence.Repositories;
 
 public class LocationRepository:GenericRepository<Location>, ILocationRepository
 {
