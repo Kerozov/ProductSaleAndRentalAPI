@@ -1,4 +1,5 @@
-﻿using Domain.Entities;
+﻿using System;
+using Domain.Entities;
 using Markerplace.Domain.Enums;
 
 namespace Markerplace.Domain.Entities;
@@ -6,6 +7,7 @@ namespace Markerplace.Domain.Entities;
 public class Order : BaseEntity
 {
     public int Quantity { get; set; }
+    
     public OrderStatus Status { get; set; } = OrderStatus.Pending;
 
     public string OrderDate { get; set; }  = DateTime.Now.ToString("yyyy/dd/mm hh:mm");

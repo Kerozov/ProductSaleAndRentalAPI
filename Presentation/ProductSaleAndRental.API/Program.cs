@@ -1,3 +1,6 @@
+using Marketplace.Persistence.Migrations;
+using Persistence.Configuration;
+
 var builder = WebApplication.CreateBuilder(args);
 
 IConfigurationRoot config = new ConfigurationBuilder()
@@ -9,15 +12,15 @@ builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
+builder.Services.AddConfigurationMigration();
 
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
-if (app.Environment.IsDevelopment())
-{
-    app.UseSwagger();
-    app.UseSwaggerUI();
-}
+DatabaseCreate.Create(app.Services.GetRequiredService<IConfiguration>());
+app.UseSwagger();
+app.UseSwaggerUI();
+app.MigrateUpDatabase();
 
 app.UseHttpsRedirection();
 
