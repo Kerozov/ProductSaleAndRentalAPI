@@ -2,7 +2,7 @@
 
 namespace Marketplace.Persistence.Migrations;
 
-[Migration(2023052301)]
+[Migration(2023091401)]
 public class _01_CategoryTable :Migration
 {
     public override void Up()
